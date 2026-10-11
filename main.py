@@ -18,7 +18,6 @@ except Exception as exc:
 
 from numba import cuda as _gpu
 
-
 SEARCH_SIZE = 21
 PATCH_SIZE = 7
 SMOOTHING = 10.0
